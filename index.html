@@ -24,15 +24,33 @@
 	<body>
 
 		<header>
-			<img src="" alt="">
-			<nav>
-				<ul>
-	        <li><a href="index.html">HOME</a></li> 
-					<li><a href="about.html">ABOUT</a></li> 
-					<li><a href="menu.html">MENU</a></li> 
-					<li><a href="gallery.html">GALLERY</a></li> 
-					<li><a href="contact.html">CONTACT</a></li>
-				</ul>
+			<nav class="navbar navbar-expand-md navbar-light">
+
+				<img src="images/lukeslogo.png" alt="Logo" title="Logo">
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto justify-content-center">
+		        <li class="nav-item active">
+							<a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+						</li> 
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">ABOUT</a>
+						</li> 
+						<li class="nav-item">
+							<a class="nav-link" href="menu.html">MENU</a>
+						</li> 
+						<li class="nav-item">
+							<a class="nav-link" href="gallery.html">GALLERY</a>
+						</li> 
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">CONTACT</a>
+						</li>
+					</ul>
+				</div>
 			</nav>
 		</header>
 
@@ -50,9 +68,9 @@
 					<li><a href="contact.html">CONTACT</a></li>
 				</ul>
 			</nav>
-			<img src="images/email.png" alt="Email">
-			<img src="images/phone.png" alt="Phone">
-			<img src="images/facebook.png" alt="Facebook">
+			<a href="mailto:lukesbagels@gmail.com"><img src="images/email.png" alt="Email"></a>
+			<a href="tel:732-278-9557"><img src="images/phone.png" alt="Phone"></a>
+			<a href="https://www.facebook.com/lukesnewyorkbagels" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
 		</footer>
 
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

@@ -1,1 +1,57 @@
 @import 'mixins';
+
+/* ----- GENERAL STYLING -------- */
+
+body {
+  font-family: @body-font;
+}
+
+/* ----- HEADER STYLING -------- */
+
+header {
+  font-family: @heading-font;
+  font-size: 1.25rem;
+  color: @black;
+  padding: 20px;
+  .navbar-nav {
+    margin-left: 20px;
+  }
+  img {
+    width: 200px;
+  }
+  .navbar-toggler, .navbar-toggler-icon {
+    background-color: @orange;
+  }
+}
+
+/* ----- FOOTER STYLING -------- */
+
+footer {
+  background-color: @red;
+  text-align: center;
+  padding: 20px 0 20px 0;
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    li{
+      display: inline-block;
+      margin: 20px;
+      a {
+        color: @white;
+      }
+      a:hover {
+        text-decoration: none;
+        color: @orange;
+        }
+      }
+    }
+  img {
+    width: 45px;
+    margin: 0 10px;
+  }
+  img:hover, img:active, img:focus {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: .2s;
+  }
+}

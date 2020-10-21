@@ -183,3 +183,75 @@ footer {
   padding: 4%;
   color: #FF853E;
 }
+
+/*-----about style-----------*/
+
+#abtimg{
+ background: url("../images/hero.jpg") center no-repeat;
+
+}
+
+#about{
+  h2{
+    color: @red;
+    font-size: 3.4em;
+    padding-bottom: 1%;
+  }
+  padding: 2% 20% 4% 20%;
+}
+
+
+#location{
+  text-align: center;
+  padding-bottom: 3%;
+  h2{
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  .mapouter{
+    margin: 0 auto;
+    height:80%;
+    max-width:60%;
+    }
+  .gmap_canvas{
+    margin: 0 auto;
+    border: @bordered;
+    overflow:hidden;
+    text-align:center;
+    background:none;
+    height:80%;
+    max-width: 70%;
+  }
+}
+
+
+
+
+//////media queries////////////////
+
+
+
+@media(max-width:700px){
+  #location{
+    text-align: center;
+    padding-bottom: 3%;
+    h2{
+      text-align: center;
+      padding-bottom: 2%;
+    }
+    .mapouter{
+      margin: 0 auto;
+      height:80%;
+      max-width:80%;
+      }
+    .gmap_canvas{
+      margin: 0 auto;
+      border: @bordered;
+      overflow:hidden;
+      text-align:center;
+      background:none;
+      height:80%;
+      max-width: 90%;
+    }
+}
+}
